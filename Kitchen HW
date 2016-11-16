@@ -1,0 +1,169 @@
+Last login: Mon Nov 14 18:06:54 on ttys001
+ GA General Assembly  Web Development Immersive 
+------------------------------------------
+git version 2.10.2
+Homebrew 1.1.0 Homebrew/homebrew-core (git revision 1d0a; last commit 2016-11-14)
+ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin16]
+node v7.1.0
+psql (PostgreSQL) 9.5.5
+------------------------------------------
+type unwelcome to remove this message
+V ~
+$ cd ~/desktop
+V ~/desktop
+$ cd Homework
+V ~/desktop/Homework
+$ cd kitchen
+V ~/desktop/Homework/kitchen
+$ rm cans.txt
+removed 'cans.txt'
+V ~/desktop/Homework/kitchen
+$ cd fridge
+V ~/desktop/Homework/kitchen/fridge
+$ mv trashcan ../
+'trashcan' -> '../trashcan'
+V ~/desktop/Homework/kitchen/fridge
+$ ls
+diapers.txt  freezer/  milk.txt
+V ~/desktop/Homework/kitchen/fridge
+$ cd ..
+V ~/desktop/Homework/kitchen
+$ ls
+fridge/  pantry/  trashcan/
+V ~/desktop/Homework/kitchen
+$ cd trashcan
+V ~/desktop/Homework/kitchen/trashcan
+$ mv sink ../
+'sink' -> '../sink'
+V ~/desktop/Homework/kitchen/trashcan
+$ ls
+banana-peels.txt  chicken-bones.txt  egg-shells.txt
+V ~/desktop/Homework/kitchen/trashcan
+$ cd ..
+V ~/desktop/Homework/kitchen
+$ ls
+fridge/  pantry/  sink/  trashcan/
+V ~/desktop/Homework/kitchen
+$ cd pantry
+V ~/desktop/Homework/kitchen/pantry
+$ mv crisper-drawer /fridge/
+gmv: cannot move 'crisper-drawer' to '/fridge/': Permission denied
+V ~/desktop/Homework/kitchen/pantry
+$ mv crisper-drawer ../fridge
+'crisper-drawer' -> '../fridge/crisper-drawer'
+V ~/desktop/Homework/kitchen/pantry
+$ cd ..
+V ~/desktop/Homework/kitchen
+$ ls
+fridge/  pantry/  sink/  trashcan/
+V ~/desktop/Homework/kitchen
+$ cd fridge
+V ~/desktop/Homework/kitchen/fridge
+$ ls
+crisper-drawer/  diapers.txt  freezer/	milk.txt
+V ~/desktop/Homework/kitchen/fridge
+$ cd crisper-drawer
+V ~/desktop/Homework/kitchen/fridge/crisper-drawer
+$ ls
+lettuce.txt
+V ~/desktop/Homework/kitchen/fridge/crisper-drawer
+$ touch apples.txt
+V ~/desktop/Homework/kitchen/fridge/crisper-drawer
+$ ls
+apples.txt  lettuce.txt
+V ~/desktop/Homework/kitchen/fridge/crisper-drawer
+$ cd ..
+V ~/desktop/Homework/kitchen/fridge
+$ cd freezer
+V ~/desktop/Homework/kitchen/fridge/freezer
+$ ls
+couch.txt  frozenpeas.txt  icecream.txt
+V ~/desktop/Homework/kitchen/fridge/freezer
+$ rm couch.txt
+removed 'couch.txt'
+V ~/desktop/Homework/kitchen/fridge/freezer
+$ cd ..
+V ~/desktop/Homework/kitchen/fridge
+$ cd ..
+V ~/desktop/Homework/kitchen
+$ ls
+fridge/  pantry/  sink/  trashcan/
+V ~/desktop/Homework/kitchen
+$ cd sink
+V ~/desktop/Homework/kitchen/sink
+$ ls
+clean-dishes.txt  delete-me.txt  dirty-dishes.txt
+V ~/desktop/Homework/kitchen/sink
+$ rm delete-me.txt
+removed 'delete-me.txt'
+V ~/desktop/Homework/kitchen/sink
+$ mkdir dying-rack
+gmkdir: created directory 'dying-rack'
+V ~/desktop/Homework/kitchen/sink
+$ mv dying-rack drying-rack
+'dying-rack' -> 'drying-rack'
+V ~/desktop/Homework/kitchen/sink
+$ ls
+clean-dishes.txt  dirty-dishes.txt  drying-rack/
+V ~/desktop/Homework/kitchen/sink
+$ mv clean-dishes.txt /drying-rack/
+'clean-dishes.txt' -> '/drying-rack/'
+gmv: cannot move 'clean-dishes.txt' to '/drying-rack/': No such file or directory
+V ~/desktop/Homework/kitchen/sink
+$ mv clean-dishes.txt ../drying-rack
+'clean-dishes.txt' -> '../drying-rack'
+V ~/desktop/Homework/kitchen/sink
+$ ls
+dirty-dishes.txt  drying-rack/
+V ~/desktop/Homework/kitchen/sink
+$ cd dying-rack
+-bash: cd: dying-rack: No such file or directory
+V ~/desktop/Homework/kitchen/sink
+$ cd drying-rack
+V ~/desktop/Homework/kitchen/sink/drying-rack
+$ ls
+V ~/desktop/Homework/kitchen/sink/drying-rack
+$ cd ..
+V ~/desktop/Homework/kitchen/sink
+$ ls
+dirty-dishes.txt  drying-rack/
+V ~/desktop/Homework/kitchen/sink
+$ cd drying-rack
+V ~/desktop/Homework/kitchen/sink/drying-rack
+$ ls
+V ~/desktop/Homework/kitchen/sink/drying-rack
+$ touch clean-dishes.txt
+V ~/desktop/Homework/kitchen/sink/drying-rack
+$ ls
+clean-dishes.txt
+V ~/desktop/Homework/kitchen/sink/drying-rack
+$ cd ..
+V ~/desktop/Homework/kitchen/sink
+$ 
+V ~/desktop/Homework/kitchen/sink
+$ ls
+dirty-dishes.txt  drying-rack/
+V ~/desktop/Homework/kitchen/sink
+$ cd ..
+V ~/desktop/Homework/kitchen
+$ cd trashcan
+V ~/desktop/Homework/kitchen/trashcan
+$ ls
+banana-peels.txt  chicken-bones.txt  egg-shells.txt
+V ~/desktop/Homework/kitchen/trashcan
+$ cd ..
+V ~/desktop/Homework/kitchen
+$ cd fridge
+V ~/desktop/Homework/kitchen/fridge
+$ rm diapers.txt
+removed 'diapers.txt'
+V ~/desktop/Homework/kitchen/fridge
+$ cd ..
+V ~/desktop/Homework/kitchen
+$ ls
+drying-rack  fridge/  pantry/  sink/  trashcan/
+V ~/desktop/Homework/kitchen
+$ rm drying-rack
+removed 'drying-rack'
+V ~/desktop/Homework/kitchen
+$ 
